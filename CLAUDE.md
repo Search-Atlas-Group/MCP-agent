@@ -1,8 +1,8 @@
-# MCP Agent — Project Context
+# Agentic Omnichannel Marketing MCP — Project Context
 
 ## What This Is
 
-AI agent orchestration framework for executing marketing workflows via the [SearchAtlas](https://searchatlas.com) MCP (Model Context Protocol). This repo contains playbooks, tool references, and execution guides for programmatically running end-to-end digital marketing campaigns through 112 MCP tools across 13 product areas.
+The **Agentic Omnichannel Marketing MCP** by [SearchAtlas](https://searchatlas.com) — the first programmable omnichannel marketing platform built on the Model Context Protocol. This repo contains playbooks, tool references, and execution guides for running end-to-end digital marketing campaigns across SEO, GEO (Generative Engine Optimization), Google Ads, local SEO, GMB optimization, AI search visibility, content generation, digital PR, and website creation — all through 112 MCP tools across 17 product namespaces.
 
 ## MCP Server
 
@@ -15,8 +15,8 @@ AI agent orchestration framework for executing marketing workflows via the [Sear
 | File | Purpose |
 |------|---------|
 | `AGENT_PLAYBOOK.md` | **Start here.** Golden rules, full 112-tool registry with schemas, verified workflows. |
-| `summit-challenge-playbooks.json` | 15 ready-to-run playbook definitions from the AI Search Summit challenge (Days 2–3). |
-| `README.md` | Project overview, tool categories, setup instructions. |
+| `summit-challenge-playbooks.json` | 15 ready-to-run agentic marketing playbook definitions from the AI Search & Agentic Marketing Summit challenge. |
+| `README.md` | Project overview, omnichannel marketing tool categories, setup instructions. |
 | `discover_tools.sh` | Batch tool discovery script — use to verify current tool names and schemas. |
 | `EXECUTION_REPORT.md` | Historical log from 4 execution runs showing progression from 40% to 78% success rate. |
 
@@ -40,20 +40,20 @@ curl -s -X POST "https://mcp.searchatlas.com/api/v1/mcp" \
 
 See `AGENT_PLAYBOOK.md` for the complete golden rules with examples and the full tool registry.
 
-## Tool Categories (112 tools)
+## Tool Categories (112 Omnichannel Marketing Tools)
 
 | Category | Tools | Key Operations |
 |----------|-------|----------------|
-| OTTO SEO | 15 | Project management, audits, schema markup, knowledge graphs, indexing, wildfire backlinks |
-| PPC / Google Ads | 13 | Business setup, campaign creation, ad groups, keywords, product feeds |
-| Site Explorer | 8 | Organic keywords, backlinks, competitor analysis, keyword research |
-| Content Genius | 7 | Article generation, topical maps, DKN, publication to 11+ CMS platforms |
-| GBP | 16 | Locations, posts, reviews, categories, services, attributes, media, automation |
-| Local SEO | 7 | Business profiles, heatmap grids, analytics, citations, AI recommendations |
-| Press Release | 4 | Knowledge graphs, content creation, distribution |
-| Cloud Stack | 4 | Content syndication to 14+ cloud providers |
-| Digital PR | 4 | Campaigns, templates, outreach opportunities, inbox management |
-| LinkLab | 4 | Link building projects, publications, articles, orders |
-| LLM Visibility | 8 | Brand visibility across LLMs, sentiment, citations, prompt simulation |
-| Brand Vault | 1 | Brand identity and voice profile management |
-| Website Studio | 1 | AI website generation and publishing |
+| OTTO SEO | 15 | On-page optimization, audits, schema markup, knowledge graphs, instant indexing, wildfire internal linking |
+| PPC / Google Ads | 13 | Business setup, campaign creation, ad groups, keyword clustering, bid management, performance tracking |
+| Site Explorer | 8 | Organic keywords, backlinks, competitor analysis, keyword research, SERP features |
+| Content Genius | 7 | AI article generation, topical authority maps, DKN, publication to 11+ CMS platforms |
+| GBP (GMB Optimization) | 16 | Location management, automated posting, AI review responses, categories, services, attributes, media |
+| Local SEO | 7 | Heatmap rank tracking, citation building, analytics, AI keyword recommendations |
+| Press Release | 4 | AI content creation, Tier 1 publisher distribution, knowledge graphs |
+| Cloud Stack | 4 | Authority backlinks across 14+ cloud providers |
+| Digital PR | 4 | Publisher outreach campaigns, email templates, opportunity management |
+| LinkLab | 4 | Guest post marketplace, editorial link building, publication discovery |
+| LLM Visibility (GEO) | 8 | Brand visibility across AI models, sentiment tracking, citation monitoring, prompt simulation |
+| Brand Vault | 1 | Brand identity, voice profiles, company intelligence |
+| Website Studio | 1 | AI website generation and one-click publishing |
